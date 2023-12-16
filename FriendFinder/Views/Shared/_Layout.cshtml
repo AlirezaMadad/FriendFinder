@@ -1,0 +1,434 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is social network html5 template available in rtl-theme......" />
+    <meta name="keywords" content="Social Network, Social Media, Make Friends, Newsfeed, Profile Page" />
+    <meta name="robots" content="index, follow" />
+    <title>My Timeline | This is My Coolest Profile</title>
+
+    <!-- Stylesheets
+    ================================================= -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/ionicons.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link href="css/emoji.css" rel="stylesheet">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="images/fav.png" />
+</head>
+<body>
+
+    <!-- Header
+    ================================================= -->
+    <header id="header">
+        <nav class="navbar navbar-default navbar-fixed-top menu">
+            <div class="container">
+
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">تغییر پیمایش</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index-register.html"><img src="images/logo.png" alt="logo" /></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-left main-menu">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">صفحه اصلی <span><img src="images/down-arrow.png" alt="" /></span></a>
+                            <ul class="dropdown-menu newsfeed-home">
+                                <li><a href="index-2.html">صفحه اصلی</a></li>
+                                <li><a href="index-register.html">ثبت نام / ورود</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">فید خبری <span><img src="images/down-arrow.png" alt="" /></span></a>
+                            <ul class="dropdown-menu newsfeed-home">
+                                <li><a href="newsfeed.html">اخبار (فید خبری)</a></li>
+                                <li><a href="newsfeed-people-nearby.html">جستجوی افراد نزدیک</a></li>
+                                <li><a href="newsfeed-friends.html">دوستان من</a></li>
+                                <li><a href="newsfeed-messages.html">چت روم</a></li>
+                                <li><a href="newsfeed-images.html">فید تصویر</a></li>
+                                <li><a href="newsfeed-videos.html">فید ویدیو</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">تایم لاین <span><img src="images/down-arrow.png" alt="" /></span></a>
+                            <ul class="dropdown-menu login">
+                                <li><a href="timeline.html">تایم لاین</a></li>
+                                <li><a href="timeline-about.html">درباره</a></li>
+                                <li><a href="timeline-album.html">آلبوم تصاویر</a></li>
+                                <li><a href="timeline-friends.html">تایم لاین دوستان</a></li>
+                                <li><a href="edit-profile-basic.html">ویرایش: اطلاعات اولیه</a></li>
+                                <li><a href="edit-profile-work-edu.html">ویرایش: کار</a></li>
+                                <li><a href="edit-profile-interests.html">ویرایش: علایق</a></li>
+                                <li><a href="edit-profile-settings.html">تنظیمات حساب</a></li>
+                                <li><a href="edit-profile-password.html">ویرایش رمز عبور</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle pages" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">همه صفحات <span><img src="images/down-arrow.png" alt="" /></span></a>
+                            <ul class="dropdown-menu page-list">
+                                <li><a href="index-2.html">صفحه اصلی</a></li>
+                                <li><a href="index-register.html">ثبت نام / ورود</a></li>
+                                <li><a href="newsfeed.html">اخبار (فید خبری)</a></li>
+                                <li><a href="newsfeed-people-nearby.html">جستجوی افراد نزدیک</a></li>
+                                <li><a href="newsfeed-friends.html">دوستان من</a></li>
+                                <li><a href="newsfeed-messages.html">چت روم</a></li>
+                                <li><a href="newsfeed-images.html">فید تصویر</a></li>
+                                <li><a href="newsfeed-videos.html">فید ویدیو</a></li>
+                                <li><a href="timeline.html">تایم لاین</a></li>
+                                <li><a href="timeline-about.html">درباره</a></li>
+                                <li><a href="timeline-album.html">آلبوم تصاویر</a></li>
+                                <li><a href="timeline-friends.html">تایم لاین دوستان</a></li>
+                                <li><a href="edit-profile-basic.html">ویرایش پروفایل</a></li>
+                                <li><a href="contact.html">ارتباط با ما</a></li>
+                                <li><a href="faq.html">سوالات متداول</a></li>
+                                <li><a href="404.html">خطای 404</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="contact.html">تماس با ما</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-left hidden-sm">
+                        <div class="form-group">
+                            <i class="icon ion-android-search"></i>
+                            <input type="text" class="form-control" placeholder="جستجو در دوستان ، عکسها ، ویدئوها">
+                        </div>
+                    </form>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container -->
+        </nav>
+    </header>
+    <!--Header End-->
+    @RenderBody()
+
+    <!-- Timeline
+    ================================================= -->
+    <div class="timeline">
+        <div class="timeline-cover">
+
+            <!--Timeline Menu for Large Screens-->
+            <div class="timeline-nav-bar hidden-sm hidden-xs">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="profile-info">
+                            <img src="images/users/user-1.jpg" alt="" class="img-responsive profile-photo" />
+                            <h3>سارا بهمنی</h3>
+                            <p class="text-muted">مدیر خلاق</p>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <ul class="list-inline profile-menu">
+                            <li><a href="timeline.html" class="active">تایم لاین</a></li>
+                            <li><a href="timeline-about.html">درباره</a></li>
+                            <li><a href="timeline-album.html">آلبوم</a></li>
+                            <li><a href="timeline-friends.html">دوستان</a></li>
+                        </ul>
+                        <ul class="follow-me list-inline">
+                            <li>1299 نفر او را دنبال می کنند</li>
+                            <li><button class="btn-primary">افزودن دوستان</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--Timeline Menu for Large Screens End-->
+            <!--Timeline Menu for Small Screens-->
+            <div class="navbar-mobile hidden-lg hidden-md">
+                <div class="profile-info">
+                    <img src="images/users/user-1.jpg" alt="" class="img-responsive profile-photo" />
+                    <h4>سارا بهمنی</h4>
+                    <p class="text-muted">مدیر خلاق</p>
+                </div>
+                <div class="mobile-menu">
+                    <ul class="list-inline">
+                        <li><a href="timline.html" class="active">تایم لاین</a></li>
+                        <li><a href="timeline-about.html">درباره</a></li>
+                        <li><a href="timeline-album.html">آلبوم</a></li>
+                        <li><a href="timeline-friends.html">دوستان</a></li>
+                    </ul>
+                    <button class="btn-primary">افزودن دوستان</button>
+                </div>
+            </div><!--Timeline Menu for Small Screens End-->
+
+        </div>
+        <div id="page-contents">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-7">
+
+                    <!-- Post Create Box
+                    ================================================= -->
+                    <div class="create-post">
+                        <div class="row">
+                            <div class="col-md-7 col-sm-7">
+                                <div class="form-group">
+                                    <img src="images/users/user-1.jpg" alt="" class="profile-photo-md" />
+                                    <textarea name="texts" id="exampleTextarea" cols="30" rows="1" class="form-control" placeholder="هرآنچه آرزو میکنید"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-5 col-sm-5">
+                                <div class="tools">
+                                    <ul class="publishing-tools list-inline">
+                                        <li><a href="#"><i class="ion-compose"></i></a></li>
+                                        <li><a href="#"><i class="ion-images"></i></a></li>
+                                        <li><a href="#"><i class="ion-ios-videocam"></i></a></li>
+                                        <li><a href="#"><i class="ion-map"></i></a></li>
+                                    </ul>
+                                    <button class="btn btn-primary pull-left">انتشار</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- Post Create Box End-->
+                    <!-- Post Content
+                    ================================================= -->
+                    <div class="post-content">
+
+                        <!--Post Date-->
+                        <div class="post-date hidden-xs hidden-sm">
+                            <h5>سارا</h5>
+                            <p class="text-grey">چند لحظه پیش</p>
+                        </div><!--Post Date End-->
+
+                        <img src="images/post-images/12.jpg" alt="post-image" class="img-responsive post-image" />
+                        <div class="post-container">
+                            <img src="images/users/user-1.jpg" alt="user" class="profile-photo-md pull-right" />
+                            <div class="post-detail">
+                                <div class="user-info">
+                                    <h5><a href="timeline.html" class="profile-link">سارا بهمنی</a> <span class="following">درحال دنبال کردن</span></h5>
+                                    <p class="text-muted">عکسی را حدود 15 دقیقه پیش منتشر کرد</p>
+                                </div>
+                                <div class="reaction">
+                                    <a class="btn text-green"><i class="icon ion-thumbsup"></i> 13</a>
+                                    <a class="btn text-red"><i class="fa fa-thumbs-down"></i> 0</a>
+                                </div>
+                                <div class="line-divider"></div>
+                                <div class="post-text">
+                                    <p class="text-justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد .</i class="em em-anguished"></i> <i class="em em-anguished"></i> <i class="em em-anguished"></i></p>
+                                </div>
+                                <div class="line-divider"></div>
+                                <div class="post-comment">
+                                    <img src="images/users/user-11.jpg" alt="" class="profile-photo-sm" />
+                                    <p class="text-justify"><a href="timeline.html" class="profile-link">دیانا </a><i class="em em-laughing"></i> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .</p>
+                                </div>
+                                <div class="post-comment">
+                                    <img src="images/users/user-4.jpg" alt="" class="profile-photo-sm" />
+                                    <p class="text-justify"><a href="timeline.html" class="profile-link">رضا</a> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .</p>
+                                </div>
+                                <div class="post-comment">
+                                    <img src="images/users/user-1.jpg" alt="" class="profile-photo-sm" />
+                                    <input type="text" class="form-control" placeholder="نظر بگذارید">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Post Content
+                    ================================================= -->
+                    <div class="post-content">
+
+                        <!--Post Date-->
+                        <div class="post-date hidden-xs hidden-sm">
+                            <h5>سارا</h5>
+                            <p class="text-grey">10/22/1400</p>
+                        </div><!--Post Date End-->
+
+                        <img src="images/post-images/13.jpg" alt="post-image" class="img-responsive post-image" />
+                        <div class="post-container">
+                            <img src="images/users/user-1.jpg" alt="user" class="profile-photo-md pull-right" />
+                            <div class="post-detail">
+                                <div class="user-info">
+                                    <h5><a href="timeline.html" class="profile-link">سارا بهمنی</a> <span class="following">درحال دنبال کردن</span></h5>
+                                    <p class="text-muted">دیروز</p>
+                                </div>
+                                <div class="reaction">
+                                    <a class="btn text-green"><i class="icon ion-thumbsup"></i> 49</a>
+                                    <a class="btn text-red"><i class="fa fa-thumbs-down"></i> 0</a>
+                                </div>
+                                <div class="line-divider"></div>
+                                <div class="post-text">
+                                    <p class="text-justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد .</i class="em em-anguished"></i> <i class="em em-anguished"></i> <i class="em em-anguished"></i></p>
+                                </div>
+                                <div class="line-divider"></div>
+                                <div class="post-comment">
+                                    <img src="images/users/user-11.jpg" alt="" class="profile-photo-sm" />
+                                    <p class="text-justify"><a href="timeline.html" class="profile-link">دیانا </a><i class="em em-laughing"></i> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .</p>
+                                </div>
+                                <div class="post-comment">
+                                    <img src="images/users/user-4.jpg" alt="" class="profile-photo-sm" />
+                                    <p class="text-justify"><a href="timeline.html" class="profile-link">رضا</a> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .</p>
+                                </div>
+                                <div class="post-comment">
+                                    <img src="images/users/user-1.jpg" alt="" class="profile-photo-sm" />
+                                    <input type="text" class="form-control" placeholder="نظر بگذارید">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Post Content
+                    ================================================= -->
+                    <div class="post-content">
+
+                        <!--Post Date-->
+                        <div class="post-date hidden-xs hidden-sm">
+                            <h5>سارا</h5>
+                            <p class="text-grey">10/21/1400</p>
+                        </div><!--Post Date End-->
+
+                        <div class="post-container">
+                            <img src="images/users/user-1.jpg" alt="user" class="profile-photo-md pull-right" />
+                            <div class="post-detail">
+                                <div class="user-info">
+                                    <h5><a href="timeline.html" class="profile-link">سارا بهمنی</a> <span class="following">درحال دنبال کردن</span></h5>
+                                    <p class="text-muted">2 روز پیش</p>
+                                </div>
+                                <div class="reaction">
+                                    <a class="btn text-green"><i class="icon ion-thumbsup"></i> 49</a>
+                                    <a class="btn text-red"><i class="fa fa-thumbs-down"></i> 0</a>
+                                </div>
+                                <div class="line-divider"></div>
+                                <div class="post-text">
+                                    <p class="text-justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد .</i class="em em-anguished"></i> <i class="em em-anguished"></i> <i class="em em-anguished"></i></p>
+                                </div>
+                                <div class="line-divider"></div>
+                                <div class="post-comment">
+                                    <img src="images/users/user-11.jpg" alt="" class="profile-photo-sm" />
+                                    <p class="text-justify"><a href="timeline.html" class="profile-link">دیانا </a><i class="em em-laughing"></i> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .</p>
+                                </div>
+                                <div class="post-comment">
+                                    <img src="images/users/user-4.jpg" alt="" class="profile-photo-sm" />
+                                    <p class="text-justify"><a href="timeline.html" class="profile-link">رضا</a> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .</p>
+                                </div>
+                                <div class="post-comment">
+                                    <img src="images/users/user-1.jpg" alt="" class="profile-photo-sm" />
+                                    <input type="text" class="form-control" placeholder="نظر بگذارید">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-2 static">
+                    <div id="sticky-sidebar">
+                        <h4 class="grey">فعالیت  های سارا</h4>
+                        <div class="feed-item">
+                            <div class="live-activity">
+                                <p><a href="#" class="profile-link">سارا</a> از عکس تقدیر کرد</p>
+                                <p class="text-muted">5 دقیقه قبل</p>
+                            </div>
+                        </div>
+                        <div class="feed-item">
+                            <div class="live-activity">
+                                <p><a href="#" class="profile-link">سارا</a> عکسی ارسال کرده است</p>
+                                <p class="text-muted">1 ساعت قبل</p>
+                            </div>
+                        </div>
+                        <div class="feed-item">
+                            <div class="live-activity">
+                                <p><a href="#" class="profile-link">سارا</a> پست دوستش را لایک کرد </p>
+                                <p class="text-muted">4 ساعت قبل</p>
+                            </div>
+                        </div>
+                        <div class="feed-item">
+                            <div class="live-activity">
+                                <p><a href="#" class="profile-link">سارا</a> آلبومی را به اشتراک گذاشته است </p>
+                                <p class="text-muted">1 روز قبل</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Footer
+    ================================================= -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-wrapper">
+                    <div class="col-md-3 col-sm-3">
+                        <a href="#"><img src="images/logo-black.png" alt="" class="footer-logo" /></a>
+                        <ul class="list-inline social-icons">
+                            <li><a href="#"><i class="icon ion-social-facebook"></i></a></li>
+                            <li><a href="#"><i class="icon ion-social-twitter"></i></a></li>
+                            <li><a href="#"><i class="icon ion-social-googleplus"></i></a></li>
+                            <li><a href="#"><i class="icon ion-social-pinterest"></i></a></li>
+                            <li><a href="#"><i class="icon ion-social-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-2">
+                        <h5>برای افراد</h5>
+                        <ul class="footer-links">
+                            <li><a href="#">ثبت نام</a></li>
+                            <li><a href="#">ورود</a></li>
+                            <li><a href="#">اکتشاف</a></li>
+                            <li><a href="#">اپلیکیشن فایندر</a></li>
+                            <li><a href="#">ویژگی ها</a></li>
+                            <li><a href="#">تنظیمات زبان</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-2">
+                        <h5>برای تجارت</h5>
+                        <ul class="footer-links">
+                            <li><a href="#">ثبت نام تجاری</a></li>
+                            <li><a href="#">ورود تجاری</a></li>
+                            <li><a href="#">مزایا</a></li>
+                            <li><a href="#">منابع</a></li>
+                            <li><a href="#">تبلیغات</a></li>
+                            <li><a href="#">راه اندازی</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-2">
+                        <h5>درباره</h5>
+                        <ul class="footer-links">
+                            <li><a href="#">درباره ما</a></li>
+                            <li><a href="#">ارتباط با ما</a></li>
+                            <li><a href="#">قوانین و مقررات</a></li>
+                            <li><a href="#">اصطلاحات</a></li>
+                            <li><a href="#">کمک</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <h5>ارتباط با ما</h5>
+                        <ul class="contact">
+                            <li><i class="icon ion-ios-telephone-outline"></i><span dir="ltr">+98 (021) 222 0754</span></li>
+                            <li><i class="icon ion-ios-email-outline"></i>info@example-email.com</li>
+                            <li><i class="icon ion-ios-location-outline"></i>ایران ، تهران ، خیابان آزادی </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>نجمه بهرمن � 1400.تمامی حقوق محفوظ است</p>
+        </div>
+    </footer>
+
+    <!--preloader-->
+    <div id="spinner-wrapper">
+        <div class="spinner"></div>
+    </div>
+
+    <!--Buy button-->
+    <a href="https://www.rtl-theme.com/author/najma" target="_blank" class="btn btn-buy"><span class="italy">خرید از :</span><img src="images/rtl_logo.png" alt="" /><span class="price">با  40 هزار تومان !</span></a>
+
+    <!-- Scripts
+    ================================================= -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky-kit.min.js"></script>
+    <script src="js/jquery.scrollbar.min.js"></script>
+    <script src="js/script.js"></script>
+    @RenderSection("Scripts",false)
+</body>
+
+</html>
