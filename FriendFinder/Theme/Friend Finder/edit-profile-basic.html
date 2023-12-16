@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="This is social network html5 template available in rtl-theme......" />
+		<meta name="keywords" content="Social Network, Social Media, Make Friends, Newsfeed, Profile Page" />
+		<meta name="robots" content="index, follow" />
+		<title>Edit Profile | Edit Profile Page</title>
+
+    <!-- Stylesheets
+    ================================================= -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/ionicons.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+   
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="images/fav.png"/>
+	</head>
+  <body>
+
+    <!-- Header
+    ================================================= -->
+		<header id="header">
+      <nav class="navbar navbar-default navbar-fixed-top menu">
+        <div class="container">
+
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">تغییر پیمایش</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index-register.html"><img src="images/logo.png" alt="logo" /></a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-left main-menu">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">صفحه اصلی <span><img src="images/down-arrow.png" alt="" /></span></a>
+                  <ul class="dropdown-menu newsfeed-home">
+                    <li><a href="index-2.html">صفحه اصلی</a></li>
+                    <li><a href="index-register.html">ثبت نام / ورود</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">فید خبری <span><img src="images/down-arrow.png" alt="" /></span></a>
+                  <ul class="dropdown-menu newsfeed-home">
+                    <li><a href="newsfeed.html">اخبار (فید خبری)</a></li>
+                    <li><a href="newsfeed-people-nearby.html">جستجوی افراد نزدیک</a></li>
+                    <li><a href="newsfeed-friends.html">دوستان من</a></li>
+                    <li><a href="newsfeed-messages.html">چت روم</a></li>
+                    <li><a href="newsfeed-images.html">فید تصویر</a></li>
+                    <li><a href="newsfeed-videos.html">فید ویدیو</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">تایم لاین <span><img src="images/down-arrow.png" alt="" /></span></a>
+                <ul class="dropdown-menu login">
+                  <li><a href="timeline.html">تایم لاین</a></li>
+                  <li><a href="timeline-about.html">درباره</a></li>
+                  <li><a href="timeline-album.html">آلبوم تصاویر</a></li>
+                  <li><a href="timeline-friends.html">تایم لاین دوستان</a></li>
+                  <li><a href="edit-profile-basic.html">ویرایش: اطلاعات اولیه</a></li>
+                  <li><a href="edit-profile-work-edu.html">ویرایش: کار</a></li>
+                  <li><a href="edit-profile-interests.html">ویرایش: علایق</a></li>
+                  <li><a href="edit-profile-settings.html">تنظیمات حساب</a></li>
+                  <li><a href="edit-profile-password.html">ویرایش رمز عبور</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle pages" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">همه صفحات <span><img src="images/down-arrow.png" alt="" /></span></a>
+                <ul class="dropdown-menu page-list">
+                  <li><a href="index-2.html">صفحه اصلی</a></li>
+                  <li><a href="index-register.html">ثبت نام / ورود</a></li>
+                  <li><a href="newsfeed.html">اخبار (فید خبری)</a></li>
+                  <li><a href="newsfeed-people-nearby.html">جستجوی افراد نزدیک</a></li>
+                  <li><a href="newsfeed-friends.html">دوستان من</a></li>
+                  <li><a href="newsfeed-messages.html">چت روم</a></li>
+                  <li><a href="newsfeed-images.html">فید تصویر</a></li>
+                  <li><a href="newsfeed-videos.html">فید ویدیو</a></li>
+                  <li><a href="timeline.html">تایم لاین</a></li>
+                  <li><a href="timeline-about.html">درباره</a></li>
+                  <li><a href="timeline-album.html">آلبوم تصاویر</a></li>
+                  <li><a href="timeline-friends.html">تایم لاین دوستان</a></li>
+                  <li><a href="edit-profile-basic.html">ویرایش پروفایل</a></li>
+                  <li><a href="contact.html">ارتباط با ما</a></li>
+                  <li><a href="faq.html">سوالات متداول</a></li>
+                  <li><a href="404.html">خطای 404</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="contact.html">تماس با ما</a></li>
+            </ul>
+            <form class="navbar-form navbar-left hidden-sm">
+              <div class="form-group">
+                <i class="icon ion-android-search"></i>
+                <input type="text" class="form-control" placeholder="جستجو در دوستان ، عکسها ، ویدئوها">
+              </div>
+            </form>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+      </nav>
+    </header>
+    <!--Header End-->
+
+    <div class="container">
+
+      <!-- Timeline
+      ================================================= -->
+      <div class="timeline">
+        <div class="timeline-cover">
+
+          <!--Timeline Menu for Large Screens-->
+          <div class="timeline-nav-bar hidden-sm hidden-xs">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="profile-info">
+                  <img src="images/users/user-1.jpg" alt="" class="img-responsive profile-photo" />
+                  <h3>سارا بهمنی</h3>
+                  <p class="text-muted">مدیر خلاق</p>
+                </div>
+              </div>
+              <div class="col-md-9">
+                <ul class="list-inline profile-menu">
+                  <li><a href="timeline.html">تایم لاین</a></li>
+                  <li><a href="timeline-about.html" class="active">درباره</a></li>
+                  <li><a href="timeline-album.html">آلبوم</a></li>
+                  <li><a href="timeline-friends.html">دوستان</a></li>
+                </ul>
+                <ul class="follow-me list-inline">
+                  <li>1299 نفر او را دنبال می کنند</li>
+                  <li><button class="btn-primary">افزودن دوستان</button></li>
+                </ul>
+              </div>
+            </div>
+          </div><!--Timeline Menu for Large Screens End-->
+
+          <!--Timeline Menu for Small Screens-->
+          <div class="navbar-mobile hidden-lg hidden-md">
+            <div class="profile-info">
+              <img src="images/users/user-1.jpg" alt="" class="img-responsive profile-photo" />
+              <h4>سارا بهمنی</h4>
+              <p class="text-muted">مدیر خلاق</p>
+            </div>
+            <div class="mobile-menu">
+              <ul class="list-inline">
+                <li><a href="timline.html">تایم لاین</a></li>
+                <li><a href="timeline-about.html" class="active">درباره</a></li>
+                <li><a href="timeline-album.html">آلبوم</a></li>
+                <li><a href="timeline-friends.html">دوستان</a></li>
+              </ul>
+              <button class="btn-primary">افزودن دوستان</button>
+            </div>
+          </div><!--Timeline Menu for Small Screens End-->
+
+        </div>
+        <div id="page-contents">
+          <div class="row">
+            <div class="col-md-3">
+              
+              <!--Edit Profile Menu-->
+              <ul class="edit-menu">
+              	<li class="active"><i class="icon ion-ios-information-outline"></i><a href="edit-profile-basic.html">اطلاعات اولیه</a></li>
+              	<li><i class="icon ion-ios-briefcase-outline"></i><a href="edit-profile-work-edu.html">تحصیلات و کار</a></li>
+              	<li><i class="icon ion-ios-heart-outline"></i><a href="edit-profile-interests.html">علایق من</a></li>
+                <li><i class="icon ion-ios-settings"></i><a href="edit-profile-settings.html">تنظیمات حساب</a></li>
+              	<li><i class="icon ion-ios-locked-outline"></i><a href="edit-profile-password.html">ویرایش رمز عبور</a></li>
+              </ul>
+            </div>
+            <div class="col-md-7">
+
+              <!-- Basic Information
+              ================================================= -->
+              <div class="edit-profile-container">
+                <div class="block-title">
+                  <h4 class="grey"><i class="icon ion-android-checkmark-circle"></i>ویرایش اطلاعات اولیه</h4>
+                  <div class="line"></div>
+                  <p class="text-justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</p>
+                  <div class="line"></div>
+                </div>
+                <div class="edit-block">
+                  <form name="basic-info" id="basic-info" class="form-inline">
+                    <div class="row">
+                      <div class="form-group col-xs-6">
+                        <label for="firstname">نام</label>
+                        <input id="firstname" class="form-control input-group-lg" type="text" name="firstname" title="نام خود را وارد کنید" placeholder="نام" value="حامد" />
+                      </div>
+                      <div class="form-group col-xs-6">
+                        <label for="lastname" class="">نام خانوادگی</label>
+                        <input id="lastname" class="form-control input-group-lg" type="text" name="lastname" title="نام خانوادگی خود را وارد کنید" placeholder="نام خانوادگی " value="آقایی" />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-group col-xs-12">
+                        <label for="email">ایمیل</label>
+                        <input id="email" class="form-control input-group-lg" type="text" name="Email" title="ایمیل خود را وارد کنید" placeholder="ایمیل" value="razor.venon@gmail.com" />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <p class="custom-label"><strong>تاریخ تولد</strong></p>
+                      <div class="form-group col-sm-3 col-xs-6">
+                        <label for="month" class="sr-only"></label>
+                        <select class="form-control" id="day">
+                          <option value="Day">روز</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                          <option>6</option>
+                          <option>7</option>
+                          <option>8</option>
+                          <option>9</option>
+                          <option>10</option>
+                          <option>11</option>
+                          <option>12</option>
+                          <option>13</option>
+                          <option>14</option>
+                          <option>15</option>
+                          <option>16</option>
+                          <option>17</option>
+                          <option>18</option>
+                          <option selected>19</option>
+                          <option>20</option>
+                          <option>21</option>
+                          <option>22</option>
+                          <option>23</option>
+                          <option>24</option>
+                          <option>25</option>
+                          <option>26</option>
+                          <option>27</option>
+                          <option>28</option>
+                          <option>29</option>
+                          <option>30</option>
+                          <option>31</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-sm-3 col-xs-6">
+                        <label for="month" class="sr-only"></label>
+                        <select class="form-control" id="month">
+                          <option value="month">ماه</option>
+                          <option>فروردین</option>
+                          <option>اردیبهشت</option>
+                          <option>خرداد</option>
+                          <option>تیر</option>
+                          <option>مرداد</option>
+                          <option>شهریور</option>
+                          <option>مهر</option>
+                          <option>آبان</option>
+                          <option>آذر</option>
+                          <option>دی</option>
+                          <option>بهمن</option>
+                          <option selected>اسفند</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-sm-6 col-xs-12">
+                        <label for="year" class="sr-only"></label>
+                        <select class="form-control" id="year">
+                          <option value="year">سال</option>
+                          <option selected>1389</option>
+                          <option>1390</option>
+                          <option>1391</option>
+                          <option>1392</option>
+                          <option>1393</option>
+                          <option>1394</option>
+                          <option>1395</option>
+                          <option>1396</option>
+                          <option>1397</option>
+                          <option>1398</option>
+                          <option>1399</option>
+                          <option>1400</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group gender">
+                      <span class="custom-label"><strong>من هستم: </strong></span>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio" checked>مرد
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">زن
+                      </label>
+                    </div>
+                    <div class="row">
+                      <div class="form-group col-xs-6">
+                        <label for="city"> شهر</label>
+                        <input id="city" class="form-control input-group-lg" type="text" name="city" title="شهر خود را انتخاب کنید" placeholder="شهر" value="تهران"/>
+                      </div>
+                      <div class="form-group col-xs-6">
+                        <label for="country">کشور</label>
+                        <select class="form-control" id="country">
+                          <option value="country">کشور</option>
+                          <option value="AFG">افقانستان</option>
+                          <option value="ALB">آلبانی</option>
+                          <option value="DZA">الجزایر</option>
+                          <option value="ASM">آمریکا</option>
+                          <option value="AND">آندورا</option>
+                          <option value="AGO">آنگولا</option>
+                          <option value="AIA">اسراییل</option>
+                          <option value="ATA">قطب جنوب</option>
+                          <option value="ATG">آنگیلا</option>
+                          <option value="ARG">آرژانتین</option>
+                          <option value="ARM">ارمنستان</option>
+                          <option value="ABW">آروبا</option>
+                          <option value="AUS">استرالیا</option>
+                          <option value="AUT">اتریش</option>
+                          <option value="AZE">آذربایجان</option>
+                          <option value="BHS">ایران</option>
+                          <option value="BHR">بحربن</option>
+                          <option value="BGD">ینگلادش</option>
+                          <option value="BRB">بلغارستان</option>
+                          <option value="BLR">بلاروس</option>
+                          <option value="BEL">بلژیک</option>
+                          <option value="BLZ">بلیز</option>
+                          <option value="BEN">بنین</option>
+                          <option value="BMU">برمودا</option>
+                          <option value="BTN">بوتان</option>
+                          <option value="SWE">سوئد</option>
+                          <option value="CHE">سوئیس</option>
+                          <option value="SYR">جمهوری عربی سوریه</option>
+                          <option value="TWN">تایوان</option>
+                          <option value="TJK">تاجیکستان</option>
+                          <option value="TZA">تانزانیا</option>
+                          <option value="THA">تایلند</option>
+                          <option value="TLS">ترینیداد</option>
+                          <option value="TGO">توگو</option>
+                          <option value="TKL">توکلاو</option>
+                          <option value="TON">تونگا</option>
+                          <option value="TTO">توباگو</option>
+                          <option value="TUN">تونس</option>
+                          <option value="TUR">نرکیه</option>
+                          <option value="TKM">ترکمنستان</option>
+                          <option value="TCA">جزایر ترکس</option>
+                          <option value="TUV">تووالو</option>
+                          <option value="UGA">اوگاندا</option>
+                          <option value="UKR">اوکراین</option>
+                          <option value="ARE">امارات متحده عربی</option>
+                          <option value="GBR">انگلستان</option>
+                          <option value="USA" selected>ایالات متحده</option>
+                          <option value="UMI">جزایر کوچک  ایالات متحده</option>
+                          <option value="URY">اروگوئه</option>
+                          <option value="UZB">ازبکستان</option>
+                          <option value="VUT">وانواتو</option>
+                          <option value="VEN">ونزوئلا</option>
+                          <option value="VNM">ویبتنام</option>
+                          <option value="VGB">جزایر ویرجین ، بریتانیا</option>
+                          <option value="VIR">جزایر ویرجین ، ایالات متحده</option>
+                          <option value="WLF">والیس و فوتونا</option>
+                          <option value="ESH">صحرای غربی</option>
+                          <option value="YEM">یمن</option>
+                          <option value="ZMB">زامبیا</option>
+                          <option value="ZWE">زیمبابوه</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-group col-xs-12">
+                        <label for="my-info">درباره من</label>
+                        <textarea id="my-info" name="information" class="form-control text-justify" placeholder="اطلاعاتی در رابطه با من" rows="4" cols="400">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</textarea>
+                      </div>
+                    </div>
+                    <button class="btn btn-primary">ذخیره تغیرات</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 static">
+              
+              <!--Sticky Timeline Activity Sidebar-->
+              <div id="sticky-sidebar">
+                <h4 class="grey">فعالیت  های سارا</h4>
+                <div class="feed-item">
+                  <div class="live-activity">
+                    <p><a href="#" class="profile-link">سارا</a> از عکس تقدیر کرد</p>
+                    <p class="text-muted">5 دقیقه قبل</p>
+                  </div>
+                </div>
+                <div class="feed-item">
+                  <div class="live-activity">
+                   <p><a href="#" class="profile-link">سارا</a> عکسی ارسال کرده است</p>
+                    <p class="text-muted">1 ساعت قبل</p>
+                  </div>
+                </div>
+                <div class="feed-item">
+                  <div class="live-activity">
+                    <p><a href="#" class="profile-link">سارا</a> پست دوستش را لایک کرد </p>
+                    <p class="text-muted">4 ساعت قبل</p>
+                  </div>
+                </div>
+                <div class="feed-item">
+                  <div class="live-activity">
+                    <p><a href="#" class="profile-link">سارا</a> آلبومی را به اشتراک گذاشته است </p>
+                    <p class="text-muted">1 روز قبل</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer
+    ================================================= -->
+    <footer id="footer">
+      <div class="container">
+      	<div class="row">
+          <div class="footer-wrapper">
+            <div class="col-md-3 col-sm-3">
+              <a href="#"><img src="images/logo-black.png" alt="" class="footer-logo" /></a>
+              <ul class="list-inline social-icons">
+              	<li><a href="#"><i class="icon ion-social-facebook"></i></a></li>
+              	<li><a href="#"><i class="icon ion-social-twitter"></i></a></li>
+              	<li><a href="#"><i class="icon ion-social-googleplus"></i></a></li>
+              	<li><a href="#"><i class="icon ion-social-pinterest"></i></a></li>
+              	<li><a href="#"><i class="icon ion-social-linkedin"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 col-sm-2">
+              <h5>برای افراد</h5>
+              <ul class="footer-links">
+                <li><a href="#">ثبت نام</a></li>
+                <li><a href="#">ورود</a></li>
+                <li><a href="#">اکتشاف</a></li>
+                <li><a href="#">اپلیکیشن فایندر</a></li>
+                <li><a href="#">ویژگی ها</a></li>
+                <li><a href="#">تنظیمات زبان</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 col-sm-2">
+              <h5>برای تجارت</h5>
+              <ul class="footer-links">
+                <li><a href="#">ثبت نام تجاری</a></li>
+                <li><a href="#">ورود تجاری</a></li>
+                <li><a href="#">مزایا</a></li>
+                <li><a href="#">منابع</a></li>
+                <li><a href="#">تبلیغات</a></li>
+                <li><a href="#">راه اندازی</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 col-sm-2">
+              <h5>درباره</h5>
+              <ul class="footer-links">
+                <li><a href="#">درباره ما</a></li>
+                <li><a href="#">ارتباط با ما</a></li>
+                <li><a href="#">قوانین و مقررات</a></li>
+                <li><a href="#">اصطلاحات</a></li>
+                <li><a href="#">کمک</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-3">
+              <h5>ارتباط با ما</h5>
+              <ul class="contact">
+                <li><i class="icon ion-ios-telephone-outline"></i><span dir="ltr">+98 (021) 222 0754</span></li>
+                <li><i class="icon ion-ios-email-outline"></i>info@example-email.com</li>
+                <li><i class="icon ion-ios-location-outline"></i>ایران ، تهران ، خیابان آزادی </li>
+              </ul>
+            </div>
+          </div>
+      	</div>
+      </div>
+      <div class="copyright">
+        <p>نجمه بهرمن � 1400.تمامی حقوق محفوظ است</p>
+      </div>
+		</footer>
+    
+    <!--preloader-->
+    <div id="spinner-wrapper">
+      <div class="spinner"></div>
+    </div>
+    
+    <!--Buy button-->
+    <a href="https://www.rtl-theme.com/author/najma" target="_blank" class="btn btn-buy"><span class="italy">خرید از :</span><img src="images/rtl_logo.png" alt="" /><span class="price">با  40 هزار تومان !</span></a>
+
+    <!-- Scripts
+    ================================================= -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky-kit.min.js"></script>
+    <script src="js/jquery.scrollbar.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+
+</html>

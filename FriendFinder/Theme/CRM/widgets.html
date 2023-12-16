@@ -1,0 +1,1161 @@
+<!doctype html>
+
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sufee Admin - HTML5 Admin Template</title>
+    <meta name="description" content="Sufee Admin - HTML5 Admin Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-icon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="vendors/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/bootstrap/dist/css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="vendors/selectFX/css/cs-skin-elastic.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <aside id="left-panel" class="left-panel">
+        <nav class="navbar navbar-expand-sm navbar-default">
+
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu"
+                    aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="./"><img src="images/logo.png" alt="Logo"></a>
+                <a class="navbar-brand hidden" href="./"><img src="images/logo2.png" alt="Logo"></a>
+            </div>
+
+            <div id="main-menu" class="main-menu collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="index.html"> <i class="menu-icon fa fa-dashboard"></i>داشبورد </a>
+                    </li>
+
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>اشیای گرافیکی</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="fa fa-puzzle-piece"></i><a href="ui-buttons.html">دکمه ها</a></li>
+                            <li><i class="fa fa-id-badge"></i><a href="ui-badges.html">نشان ها</a></li>
+                            <li><i class="fa fa-bars"></i><a href="ui-tabs.html">تب ها</a></li>
+                            <li><i class="fa fa-share-square-o"></i><a href="ui-social-buttons.html">دکمه شبکه
+                                    اجتماعی</a></li>
+                            <li><i class="fa fa-id-card-o"></i><a href="ui-cards.html">کارت ها</a></li>
+                            <li><i class="fa fa-exclamation-triangle"></i><a href="ui-alerts.html">هشدارها</a></li>
+                            <li><i class="fa fa-magic"></i><a href="ui-progressbar.html">نوار پیشرفت</a></li>
+                            <li><i class="fa fa-spinner"></i><a href="ui-preloader.html">لودینگ</a></li>
+                            <li><i class="fa fa-compress"></i><a href="ui-slider.html">محدوده انتخاب</a></li>
+                            <li><i class="fa fa-fire"></i><a href="ui-modals.html">مُدال ها</a></li>
+                            <li><i class="fa fa-tasks"></i><a href="ui-accordion.html">آکاردئون</a></li>
+                            <li><i class="fa fa-fire"></i><a href="ui-timeline.html">تایم لاین</a></li>
+                            <li><i class="fa fa-book"></i><a href="ui-switches.html">سوئیچ ها</a></li>
+                            <li><i class="ti-layers-alt"></i><a href="ui-pagination.html">صفحه بندی</a></li>
+                            <li><i class="fa fa-th"></i><a href="ui-grids.html">سیستم شبکه بندی</a></li>
+                            <li><i class="fa fa-file-word-o"></i><a href="ui-typgraphy.html">تایپوگرافی</a></li>
+                            <li><i class="fa fa-sort-amount-desc"></i><a href="ui-tree-view.html">نمایش درختی</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"> <i class="menu-icon fa fa-table"></i>جداول</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="fa fa-table"></i><a href="tables-basic.html">جدول ساده</a></li>
+                            <li><i class="fa fa-table"></i><a href="tables-data.html">جدول داده</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"> <i class="menu-icon fa fa-edit"></i>فرم ها</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-th"></i><a href="forms-basic.html">فرم ساده</a></li>
+                            <li><i class="menu-icon fa fa-th"></i><a href="forms-advanced.html">فرم پیشرفته</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"> <i class="menu-icon ti-email"></i>ایمیل ها</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-edit"></i><a href="email-send.html">ارسال ایمیل جدید</a></li>
+                            <li><i class="menu-icon ti-email"></i><a href="email-mailbox.html">صندوق دریافت</a></li>
+                            <li><i class="menu-icon fa fa-eye"></i><a href="email-read-mail.html">نمایش ایمیل</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"> <i class="menu-icon fa fa-tasks"></i>آیکون</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-fort-awesome"></i><a href="font-fontawesome.html">فونت
+                                    آوسوم</a></li>
+                            <li><i class="menu-icon ti-themify-logo"></i><a href="font-themify.html">Themefy</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="widgets.html"> <i class="menu-icon fa fa-th"></i>ویجت ها </a>
+                    </li>
+                    <li>
+                        <a href="editor-ckeditor.html"><i class="menu-icon fa fa-edit"></i>ویرایشگر CKeditor <span
+                                class="badge badge-success float-left">ویژه</span> </a>
+                        <a href="calender.html"><i class="menu-icon fa fa-calendar"></i>تقویم</a>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"> <i class="menu-icon fa fa-bar-chart"></i>نمودار ها</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-line-chart"></i><a href="charts-chartjs.html">نمودار
+                                    ChartJS</a></li>
+                            <li><i class="menu-icon fa fa-area-chart"></i><a href="charts-flot.html">نمودار Flot</a>
+                            </li>
+                            <li><i class="menu-icon fa fa-pie-chart"></i><a href="charts-peity.html">نمودار Peity</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"> <i class="menu-icon fa fa-area-chart"></i>نقشه ها</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-map-o"></i><a href="maps-gmap.html">نقشه های گوگل</a></li>
+                            <li><i class="menu-icon fa fa-street-view"></i><a href="maps-vector.html">نقشه های
+                                    برداری</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>صفحه ها</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-warning"></i><a href="page-403.html">خطای ۴۰3</a></li>
+                            <li><i class="menu-icon fa fa-warning"></i><a href="page-404.html">خطای ۴۰۴</a></li>
+                            <li><i class="menu-icon fa fa-warning"></i><a href="page-500.html">خطای ۵۰۰</a></li>
+                            <li><i class="menu-icon fa fa-sign-in"></i><a href="page-login.html">صفحه ورود</a></li>
+                            <li><i class="menu-icon fa fa-sign-in"></i><a href="page-register.html">صفحه ثبت نام</a>
+                            </li>
+                            <li><i class="menu-icon fa fa-paper-plane"></i><a href="pages-forget.html">صفحه فراموشی رمز
+                                    عبور</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </nav>
+    </aside>
+    <!-- Sidebar -->
+
+    <!-- Main -->
+    <div id="right-panel" class="right-panel">
+        <!-- Header-->
+        <header id="header" class="header">
+
+            <div class="header-menu">
+
+                <div class="col-sm-12 float-right">
+                    <a id="menuToggle" class="menutoggle pull-left"><i class="fa fa fa-tasks"></i></a>
+                    <div class="user-area dropdown float-right">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <img class="user-avatar rounded-circle" src="images/admin.jpg" alt="User Avatar">
+                        </a>
+
+                        <div class="user-menu dropdown-menu">
+                            <a class="nav-link" href="#"><i class="fa fa-user"></i> پروفایل من</a>
+
+                            <a class="nav-link" href="#"><i class="fa fa-bell"></i> اعلان ها <span
+                                    class="count f-left">13</span></a>
+
+                            <a class="nav-link" href="#"><i class="fa fa-cog"></i> تنظیمات</a>
+
+                            <a class="nav-link" href="#"><i class="fa fa-power-off"></i> خروج</a>
+                        </div>
+                    </div>
+
+                    <div class="header-left float-right mr-3">
+                        <div class="dropdown for-message">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="message"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="ti-email"></i>
+                                <span class="count bg-primary">4</span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="message">
+                                <p class="red">4 پیام خوانده نشده</p>
+                                <a class="dropdown-item media" href="#">
+                                    <span class="photo media-left"><img alt="avatar" src="images/avatar/1.jpg"></span>
+                                    <span class="message media-body">
+                                        <span class="name float-right">حامد</span>
+                                        <span class="time float-left">همین حالا</span>
+                                    </span>
+                                    <span class="message message-body">
+                                        <p>متن پیام...</p>
+                                    </span>
+                                </a>
+                                <a class="dropdown-item media" href="#">
+                                    <span class="photo media-left"><img alt="avatar" src="images/avatar/2.jpg"></span>
+                                    <span class="message media-body">
+                                        <span class="name float-left">پریسا</span>
+                                        <span class="time float-right">5دقیقه قبل</span>
+                                    </span>
+                                    <span class="message message-body">
+                                        <p>متن پیام...</p>
+                                    </span>
+                                </a>
+                                <a class="dropdown-item media" href="#">
+                                    <span class="photo media-left"><img alt="avatar" src="images/avatar/3.jpg"></span>
+                                    <span class="message media-body">
+                                        <span class="name float-left">امیر</span>
+                                        <span class="time float-right">10 دقیقه قبل</span>
+                                    </span>
+                                    <span class="message message-body">
+                                        <p>متن پیام...</p>
+                                    </span>
+                                </a>
+                                <a class="dropdown-item media" href="#">
+                                    <span class="photo media-left"><img alt="avatar" src="images/avatar/4.jpg"></span>
+                                    <span class="message media-body">
+                                        <span class="name float-left">نسترن</span>
+                                        <span class="time float-right">15 دقیقه قبل</span>
+                                    </span>
+                                    <span class="message message-body">
+                                        <p>متن پیام...</p>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="dropdown for-notification">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="notification"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-bell"></i>
+                                <span class="count bg-danger">5</span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="notification">
+                                <p class="red">3 اعلان جدید</p>
+                                <a class="dropdown-item media" href="#">
+                                    <i class="fa fa-check c-flat-color-1 text-success"></i>
+                                    <p>عملیات موفقیت آمیز</p>
+                                </a>
+                                <a class="dropdown-item media" href="#">
+                                    <i class="fa fa-info c-flat-color-4 text-info"></i>
+                                    <p>در حال بررسی</p>
+                                </a>
+                                <a class="dropdown-item media" href="#">
+                                    <i class="fa fa-warning c-flat-color-5 text-warning"></i>
+                                    <p>اخطار دقت کنید.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <button class="search-trigger"><i class="fa fa-search"></i></button>
+                        <div class="form-inline">
+                            <form class="search-form">
+                                <input class="form-control mr-sm-2" type="text" placeholder="جستجو ..."
+                                    aria-label="Search">
+                                <button class="search-close" type="submit"><i class="fa fa-close mt-1"></i></button>
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </header>
+        <!-- Header-->
+
+        <div class="breadcrumbs">
+            <div class="col-sm-4">
+                <div class="page-header float-left">
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="page-header float-right">
+                    <div class="page-title">
+                        <ol class="breadcrumb text-right">
+                            <li><a href="index.html">داشبورد</a></li>
+                            <li class="active">ویجت ها (Widgets)</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content mt-3">
+            <div class="animated fadeIn">
+                <div class="row">
+
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card text-white bg-flat-color-1">
+                            <div class="card-body pb-0">
+                                <div class="dropdown float-left">
+                                    <button class="btn bg-transparent dropdown-toggle theme-toggle text-light"
+                                        type="button" id="dropdownMenuButton1" data-toggle="dropdown">
+                                        <i class="fa fa-cog"></i>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <div class="dropdown-menu-content">
+                                            <a class="dropdown-item" href="#">گزینه 1</a>
+                                            <a class="dropdown-item" href="#">گزینه 2</a>
+                                            <a class="dropdown-item" href="#">گزینه 3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="mb-0">
+                                    <span class="count">10468</span>
+                                </h4>
+                                <p class="text-light">کاربران آنلاین</p>
+
+                                <div class="chart-wrapper px-0" style="height:70px;" height="70" />
+                                <canvas id="widgetChart1"></canvas>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!--/.col-->
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card text-white bg-flat-color-2">
+                        <div class="card-body pb-0">
+                            <div class="dropdown float-left">
+                                <button class="btn bg-transparent dropdown-toggle theme-toggle text-light" type="button"
+                                    id="dropdownMenuButton2" data-toggle="dropdown">
+                                    <i class="fa fa-cog"></i>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                    <div class="dropdown-menu-content">
+                                        <a class="dropdown-item" href="#">گزینه 1</a>
+                                        <a class="dropdown-item" href="#">گزینه 2</a>
+                                        <a class="dropdown-item" href="#">گزینه 3</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="mb-0">
+                                <span class="count">10468</span>
+                            </h4>
+                            <p class="text-light">کاربران آنلاین</p>
+
+                            <div class="chart-wrapper px-0" style="height:70px;" height="70" />
+                            <canvas id="widgetChart2"></canvas>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--/.col-->
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card text-white bg-flat-color-3">
+                    <div class="card-body pb-0">
+                        <div class="dropdown float-left">
+                            <button class="btn bg-transparent dropdown-toggle theme-toggle text-light" type="button"
+                                id="dropdownMenuButton3" data-toggle="dropdown">
+                                <i class="fa fa-cog"></i>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+                                <div class="dropdown-menu-content">
+                                    <a class="dropdown-item" href="#">گزینه 1</a>
+                                    <a class="dropdown-item" href="#">گزینه 2</a>
+                                    <a class="dropdown-item" href="#">گزینه 3</a>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="mb-0">
+                            <span class="count">10468</span>
+                        </h4>
+                        <p class="text-light">کاربران آنلاین</p>
+
+                    </div>
+
+                    <div class="chart-wrapper px-0" style="height:70px;" height="70" />
+                    <canvas id="widgetChart3"></canvas>
+                </div>
+            </div>
+        </div>
+        <!--/.col-->
+
+        <div class="col-md-6 col-lg-3">
+            <div class="card text-white bg-flat-color-4">
+                <div class="card-body pb-0">
+                    <div class="dropdown float-left">
+                        <button class="btn bg-transparent dropdown-toggle theme-toggle text-light" type="button"
+                            id="dropdownMenuButton4" data-toggle="dropdown">
+                            <i class="fa fa-cog"></i>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
+                            <div class="dropdown-menu-content">
+                                <a class="dropdown-item" href="#">گزینه 1</a>
+                                <a class="dropdown-item" href="#">گزینه 2</a>
+                                <a class="dropdown-item" href="#">گزینه 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="mb-0">
+                        <span class="count">10468</span>
+                    </h4>
+                    <p class="text-light">کاربران آنلاین</p>
+
+                    <div class="chart-wrapper px-3" style="height:70px;" height="70" />
+                    <canvas id="widgetChart4"></canvas>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+
+
+    <div class="col-lg-3 col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <div class="stat-widget-one">
+                    <div class="stat-icon dib"><i class="ti-money text-success border-success"></i></div>
+                    <div class="stat-content dib text-right mr-2">
+                        <div class="stat-text">کل فروش</div>
+                        <div class="stat-digit">1,012</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <div class="stat-widget-one">
+                    <div class="stat-icon dib"><i class="ti-user text-primary border-primary"></i></div>
+                    <div class="stat-content dib text-right mr-2">
+                        <div class="stat-text">مشتری جدید</div>
+                        <div class="stat-digit">961</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <div class="stat-widget-one">
+                    <div class="stat-icon dib"><i class="ti-layout-grid2 text-warning border-warning"></i></div>
+                    <div class="stat-content dib text-right mr-2">
+                        <div class="stat-text">پروژه های فعال</div>
+                        <div class="stat-digit">770</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <div class="stat-widget-one">
+                    <div class="stat-icon dib"><i class="ti-link text-danger border-danger"></i></div>
+                    <div class="stat-content dib text-right mr-2">
+                        <div class="stat-text">پیوندها</div>
+                        <div class="stat-digit">2,781</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <div class="stat-widget-four">
+                    <div class="stat-icon dib">
+                        <i class="ti-server text-muted"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="text-right dib mr-2">
+                            <div class="stat-heading">دیتابیس</div>
+                            <div class="stat-text">کل: 765</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <div class="stat-widget-four">
+                    <div class="stat-icon dib">
+                        <i class="ti-user text-muted"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="text-right dib mr-2">
+                            <div class="stat-heading">کاربران</div>
+                            <div class="stat-text">کل: 24720</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <div class="stat-widget-four">
+                    <div class="stat-icon dib">
+                        <i class="ti-stats-up text-muted"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="text-right dib mr-2">
+                            <div class="stat-heading">فروش روزانه</div>
+                            <div class="stat-text">کل: 76,58,714</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <div class="stat-widget-four">
+                    <div class="stat-icon dib">
+                        <i class="ti-pulse text-muted"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="text-right dib mr-2">
+                            <div class="stat-heading">پهنای باند</div>
+                            <div class="stat-text">کل: 4TB</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card bg-flat-color-1 text-light">
+            <div class="card-body text-right">
+                <div class="h4 m-0">89.9%</div>
+                <div>لورم ایپسوم متن ساختگی</div>
+                <small class="text-light">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</small>
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card bg-flat-color-3 text-light">
+            <div class="card-body text-right">
+                <div class="h4 m-0">12.124</div>
+                <div>لورم ایپسوم متن ساختگی</div>
+                <small class="text-light">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</small>
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card bg-flat-color-4 text-light">
+            <div class="card-body text-right">
+                <div class="h4 m-0"> 98.111,00</div>
+                <div>لورم ایپسوم متن ساختگی</div>
+                <small class="text-light">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</small>
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card bg-flat-color-2 text-light">
+            <div class="card-body text-right">
+                <div class="h4 m-0"> 98.111,00</div>
+                <div>لورم ایپسوم متن ساختگی</div>
+                <small class="text-light">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</small>
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+
+
+
+
+    <div class="col-6 col-lg-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="clearfix">
+                    <i class="fa fa-cogs bg-flat-color-5 p-3 font-2xl ml-3 float-right text-light"></i>
+                    <div class="h5 text-secondary mb-0 mt-1"> 4.999,50</div>
+                    <div class="text-muted text-uppercase font-weight-bold font-xs small">درآمد</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+    <div class="col-6 col-lg-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="clearfix">
+                    <i class="fa fa-laptop bg-info p-3 font-2xl ml-3 float-right text-light"></i>
+                    <div class="h5 text-secondary mb-0 mt-1"> 4.999,50</div>
+                    <div class="text-muted text-uppercase font-weight-bold font-xs small">درآمد</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+    <div class="col-6 col-lg-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="clearfix">
+                    <i class="fa fa-moon-o bg-warning p-3 font-2xl ml-3 float-right text-light"></i>
+                    <div class="h5 text-secondary mb-0 mt-1"> 4.999,50</div>
+                    <div class="text-muted text-uppercase font-weight-bold font-xs small">درآمد</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+    <div class="col-6 col-lg-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="clearfix">
+                    <i class="fa fa-bell bg-danger p-3 font-2xl ml-3 float-right text-light"></i>
+                    <div class="h5 text-secondary mb-0 mt-1"> 4.999,50</div>
+                    <div class="text-muted text-uppercase font-weight-bold font-xs small">درآمد</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+    <div class="col-6 col-lg-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="clearfix">
+                    <i class="fa fa-cogs bg-flat-color-5 p-3 font-2xl ml-3 float-right text-light"></i>
+                    <div class="h5 text-secondary mb-0 mt-1"> 4.999,50</div>
+                    <div class="text-muted text-uppercase font-weight-bold font-xs small">درآمد</div>
+                </div>
+                <div class="b-b-1 pt-3"></div>
+                <hr>
+                <div class="more-info pt-2" style="margin-bottom:-10px; float:left;">
+                    <a class="font-weight-bold font-xs btn-block text-muted small" href="#"> مشاهده بیشتر <i
+                            class="fa fa-angle-left float-left font-lg mr-2 mt-1"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+    <div class="col-6 col-lg-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="clearfix">
+                    <i class="fa fa-laptop bg-info p-3 font-2xl ml-3 float-right text-light"></i>
+                    <div class="h5 text-secondary mb-0 mt-1"> 4.999,50</div>
+                    <div class="text-muted text-uppercase font-weight-bold font-xs small">درآمد</div>
+                </div>
+                <div class="b-b-1 pt-3"></div>
+                <hr>
+                <div class="more-info pt-2" style="margin-bottom:-10px; float:left;">
+                    <a class="font-weight-bold font-xs btn-block text-muted small" href="#"> مشاهده بیشتر <i
+                            class="fa fa-angle-left float-left font-lg mr-2 mt-1"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+    <div class="col-6 col-lg-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="clearfix">
+                    <i class="fa fa-moon-o bg-warning p-3 font-2xl ml-3 float-right text-light"></i>
+                    <div class="h5 text-secondary mb-0 mt-1"> 4.999,50</div>
+                    <div class="text-muted text-uppercase font-weight-bold font-xs small">درآمد</div>
+                </div>
+                <div class="b-b-1 pt-3"></div>
+                <hr>
+                <div class="more-info pt-2" style="margin-bottom:-10px; float:left;">
+                    <a class="font-weight-bold font-xs btn-block text-muted small" href="#"> مشاهده بیشتر <i
+                            class="fa fa-angle-left float-left font-lg mr-2 mt-1"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+    <div class="col-6 col-lg-3">
+        <div class="card">
+            <div class="card-body">
+                <div class="clearfix">
+                    <i class="fa fa-bell bg-danger p-3 font-2xl ml-3 float-right text-light"></i>
+                    <div class="h5 text-secondary mb-0 mt-1"> 4.999,50</div>
+                    <div class="text-muted text-uppercase font-weight-bold font-xs small">درآمد</div>
+                </div>
+                <div class="b-b-1 pt-3"></div>
+                <hr>
+                <div class="more-info pt-2" style="margin-bottom:-10px; float:left;">
+                    <a class="font-weight-bold font-xs btn-block text-muted small" href="#"> مشاهده بیشتر <i
+                            class="fa fa-angle-left float-left font-lg mr-2 mt-1"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+
+
+
+
+
+    <div class="col-md-6 col-lg-3">
+        <div class="card">
+            <div class="p-0 clearfix">
+                <i class="fa fa-cogs bg-primary p-4 font-2xl ml-3 float-right text-light"></i>
+                <div class="h5 text-primary mb-0 pt-3"> 1.999,50</div>
+                <div class="text-muted text-uppercase font-weight-bold font-xs small">درآمد</div>
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+    <div class="col-md-6 col-lg-3">
+        <div class="card">
+            <div class="card-body p-0 clearfix">
+                <i class="fa fa-laptop bg-info p-4 font-2xl ml-3 float-right text-light"></i>
+                <div class="h5 text-info mb-0 pt-3"> 1.999,50</div>
+                <div class="text-muted text-uppercase font-weight-bold font-xs small">درآمد</div>
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+    <div class="col-md-6 col-lg-3">
+        <div class="card">
+            <div class="p-0 clearfix">
+                <i class="fa fa-moon-o bg-warning p-4 font-2xl ml-3 float-right text-light"></i>
+                <div class="h5 text-warning mb-0 pt-3"> 1.999,50</div>
+                <div class="text-muted text-uppercase font-weight-bold font-xs small">درآمد</div>
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+    <div class="col-md-6 col-lg-3">
+        <div class="card">
+            <div class="p-0 clearfix">
+                <i class="fa fa-bell bg-danger p-4 font-2xl ml-3 float-right text-light"></i>
+                <div class="h5 text-danger mb-0 pt-3"> 1.999,50</div>
+                <div class="text-muted text-uppercase font-weight-bold font-xs small">درآمد</div>
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+    <div class="col-md-6 col-lg-3">
+        <div class="card">
+            <div class="p-0 clearfix">
+                <i class="fa fa-cogs bg-primary p-4 px-5 font-2xl ml-3 float-right text-light"></i>
+                <div class="h5 text-primary mb-0 pt-3"> 1.999,50</div>
+                <div class="text-muted text-uppercase font-weight-bold font-xs small">درآمد</div>
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+    <div class="col-md-6 col-lg-3">
+        <div class="card">
+            <div class="p-0 clearfix">
+                <i class="fa fa-laptop bg-info p-4 px-5 font-2xl ml-3 float-right text-light"></i>
+                <div class="h5 text-info mb-0 pt-3"> 1.999,50</div>
+                <div class="text-muted text-uppercase font-weight-bold font-xs small">درآمد</div>
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+    <div class="col-md-6 col-lg-3">
+        <div class="card">
+            <div class="p-0 clearfix">
+                <i class="fa fa-moon-o bg-warning p-4 px-5 font-2xl ml-3 float-right text-light"></i>
+                <div class="h5 text-warning mb-0 pt-3"> 1.999,50</div>
+                <div class="text-muted text-uppercase font-weight-bold font-xs small">درآمد</div>
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+    <div class="col-md-6 col-lg-3">
+        <div class="card">
+            <div class="p-0 clearfix">
+                <i class="fa fa-bell bg-danger p-4 px-5 font-2xl ml-3 float-right text-light"></i>
+                <div class="h5 text-danger mb-0 pt-3"> 1.999,50</div>
+                <div class="text-muted text-uppercase font-weight-bold font-xs small">درآمد</div>
+            </div>
+        </div>
+    </div>
+    <!--/.col-->
+
+
+
+
+    <div class="col-lg-3 col-md-6">
+        <div class="social-box facebook">
+            <i class="fa fa-facebook"></i>
+            <ul>
+                <li>
+                    <sctrong><span class="count">40</span><span>k</span></strong>
+                        <span>دنبال کننده</span>
+                </li>
+                <li>
+                    <sctrong><span class="count">450</span></strong>
+                        <span>بازخورد</span>
+                </li>
+            </ul>
+        </div>
+        <!--/social-box-->
+    </div>
+    <!--/.col-->
+
+
+    <div class="col-lg-3 col-md-6">
+        <div class="social-box twitter">
+            <i class="fa fa-twitter"></i>
+            <ul>
+                <li>
+                    <sctrong><span class="count">30</span><span>k</span></strong>
+                        <span>دنبال کننده</span>
+                </li>
+                <li>
+                    <sctrong><span class="count">450</span></strong>
+                        <span>توییت</span>
+                </li>
+            </ul>
+        </div>
+        <!--/social-box-->
+    </div>
+    <!--/.col-->
+
+
+    <div class="col-lg-3 col-md-6">
+        <div class="social-box linkedin">
+            <i class="fa fa-linkedin"></i>
+            <ul>
+                <li>
+                    <sctrong><span class="count">40</span>+</strong>
+                        <span>مخاطب</span>
+                </li>
+                <li>
+                    <sctrong><span class="count">250</span></strong>
+                        <span>بازخورد</span>
+                </li>
+            </ul>
+        </div>
+        <!--/social-box-->
+    </div>
+    <!--/.col-->
+
+
+    <div class="col-lg-3 col-md-6">
+        <div class="social-box google-plus">
+            <i class="fa fa-google-plus"></i>
+            <ul>
+                <li>
+                    <sctrong><span class="count">84</span><span>k</span></strong>
+                        <span>دنبال کننده</span>
+                </li>
+                <li>
+                    <sctrong><span class="count">92</span></strong>
+                        <span>ایمیل</span>
+                </li>
+            </ul>
+        </div>
+        <!--/social-box-->
+    </div>
+    <!--/.col-->
+
+
+    <div class="col-sm-12 mb-4">
+        <div class="card-group">
+            <div class="card col-md-6 no-padding ">
+                <div class="card-body">
+                    <div class="h1 text-muted text-right mb-4">
+                        <i class="fa fa-users"></i>
+                    </div>
+
+                    <div class="h4 mb-0">
+                        <span class="count">87500</span>
+                    </div>
+
+                    <small class="text-muted text-uppercase font-weight-bold">بازدیدکنندگان</small>
+                    <div class="progress progress-xs mt-3 mb-0 bg-flat-color-1" style="width: 40%; height: 5px;"></div>
+                </div>
+            </div>
+            <div class="card col-md-6 no-padding ">
+                <div class="card-body">
+                    <div class="h1 text-muted text-right mb-4">
+                        <i class="fa fa-user-plus"></i>
+                    </div>
+                    <div class="h4 mb-0">
+                        <span class="count">385</span>
+                    </div>
+                    <small class="text-muted text-uppercase font-weight-bold">کاربران جدید</small>
+                    <div class="progress progress-xs mt-3 mb-0 bg-flat-color-2" style="width: 40%; height: 5px;"></div>
+                </div>
+            </div>
+            <div class="card col-md-6 no-padding ">
+                <div class="card-body">
+                    <div class="h1 text-muted text-right mb-4">
+                        <i class="fa fa-cart-plus"></i>
+                    </div>
+                    <div class="h4 mb-0">
+                        <span class="count">1238</span>
+                    </div>
+                    <small class="text-muted text-uppercase font-weight-bold">محصولات فروخته شده</small>
+                    <div class="progress progress-xs mt-3 mb-0 bg-flat-color-3" style="width: 40%; height: 5px;"></div>
+                </div>
+            </div>
+            <div class="card col-md-6 no-padding ">
+                <div class="card-body">
+                    <div class="h1 text-muted text-right mb-4">
+                        <i class="fa fa-pie-chart"></i>
+                    </div>
+                    <div class="h4 mb-0">
+                        <span class="count">28</span>%
+                    </div>
+                    <small class="text-muted text-uppercase font-weight-bold">درصد بازدیدکنندگان</small>
+                    <div class="progress progress-xs mt-3 mb-0 bg-flat-color-4" style="width: 40%; height: 5px;"></div>
+                </div>
+            </div>
+            <div class="card col-md-6 no-padding ">
+                <div class="card-body">
+                    <div class="h1 text-muted text-right mb-4">
+                        <i class="fa fa-clock-o"></i>
+                    </div>
+                    <div class="h4 mb-0">5:34:11</div>
+                    <small class="text-muted text-uppercase font-weight-bold">زمان</small>
+                    <div class="progress progress-xs mt-3 mb-0 bg-flat-color-5" style="width: 40%; height: 5px;"></div>
+                </div>
+            </div>
+            <div class="card col-md-6 no-padding ">
+                <div class="card-body">
+                    <div class="h1 text-muted text-right mb-4">
+                        <i class="fa fa-comments-o"></i>
+                    </div>
+                    <div class="h4 mb-0">
+                        <span class="count">972</span>
+                    </div>
+                    <small class="text-muted text-uppercase font-weight-bold">نظرات</small>
+                    <div class="progress progress-xs mt-3 mb-0 bg-flat-color-1" style="width: 40%; height: 5px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-sm-12 mb-4">
+        <div class="card-group">
+            <div class="card col-lg-2 col-md-6 no-padding bg-flat-color-1">
+                <div class="card-body">
+                    <div class="h1 text-muted text-right mb-4">
+                        <i class="fa fa-users text-light"></i>
+                    </div>
+
+                    <div class="h4 mb-0 text-light">
+                        <span class="count">87500</span>
+                    </div>
+                    <small class="text-uppercase font-weight-bold text-light">بازدیدکنندگان</small>
+                    <div class="progress progress-xs mt-3 mb-0 bg-light" style="width: 40%; height: 5px;"></div>
+                </div>
+            </div>
+            <div class="card col-lg-2 col-md-6 no-padding no-shadow">
+                <div class="card-body bg-flat-color-2">
+                    <div class="h1 text-muted text-right mb-4">
+                        <i class="fa fa-user-plus text-light"></i>
+                    </div>
+                    <div class="h4 mb-0 text-light">
+                        <span class="count">385</span>
+                    </div>
+                    <small class="text-uppercase font-weight-bold text-light">کاربران جدید</small>
+                    <div class="progress progress-xs mt-3 mb-0 bg-light" style="width: 40%; height: 5px;"></div>
+                </div>
+            </div>
+            <div class="card col-lg-2 col-md-6 no-padding no-shadow">
+                <div class="card-body bg-flat-color-3">
+                    <div class="h1 text-right mb-4">
+                        <i class="fa fa-cart-plus text-light"></i>
+                    </div>
+                    <div class="h4 mb-0 text-light">
+                        <span class="count">1238</span>
+                    </div>
+                    <small class="text-light text-uppercase font-weight-bold">محصولات فروخته شده</small>
+                    <div class="progress progress-xs mt-3 mb-0 bg-light" style="width: 40%; height: 5px;"></div>
+                </div>
+            </div>
+            <div class="card col-lg-2 col-md-6 no-padding no-shadow">
+                <div class="card-body bg-flat-color-5">
+                    <div class="h1 text-right text-light mb-4">
+                        <i class="fa fa-pie-chart"></i>
+                    </div>
+                    <div class="h4 mb-0 text-light">
+                        <span class="count">28</span>%
+                    </div>
+                    <small class="text-uppercase font-weight-bold text-light">درصد بازدیدکنندگان</small>
+                    <div class="progress progress-xs mt-3 mb-0 bg-light" style="width: 40%; height: 5px;"></div>
+                </div>
+            </div>
+            <div class="card col-lg-2 col-md-6 no-padding no-shadow">
+                <div class="card-body bg-flat-color-4">
+                    <div class="h1 text-light text-right mb-4">
+                        <i class="fa fa-clock-o"></i>
+                    </div>
+                    <div class="h4 mb-0 text-light">5:34:11</div>
+                    <small class="text-light text-uppercase font-weight-bold">زمان</small>
+                    <div class="progress progress-xs mt-3 mb-0 bg-light" style="width: 40%; height: 5px;"></div>
+                </div>
+            </div>
+            <div class="card col-lg-2 col-md-6 no-padding no-shadow">
+                <div class="card-body bg-flat-color-1">
+                    <div class="h1 text-light text-right mb-4">
+                        <i class="fa fa-comments-o"></i>
+                    </div>
+                    <div class="h4 mb-0 text-light">
+                        <span class="count">972</span>
+                    </div>
+                    <small class="text-light text-uppercase font-weight-bold">نظرات</small>
+                    <div class="progress progress-xs mt-3 mb-0 bg-light" style="width: 40%; height: 5px;"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="col-lg-4 col-md-6">
+        <aside class="profile-nav alt">
+            <section class="card">
+                <div class="card-header user-header alt bg-dark">
+                    <div class="media mt-3">
+                        <a href="#">
+                            <img class="align-self-center rounded-circle mr-3" style="width:85px; height:85px;" alt=""
+                                src="images/admin.jpg">
+                        </a>
+                        <div class="media-body">
+                            <h2 class="text-light display-6">امیر افشار</h2>
+                            <p>مدیر پروژه</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <a href="#"> <i class="fa fa-envelope-o"></i> صندوق دریافت ایمیل <span
+                                class="badge badge-primary pull-left">10</span></a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#"> <i class="fa fa-tasks"></i> فعالیت های اخیر <span
+                                class="badge badge-danger pull-left">15</span></a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#"> <i class="fa fa-bell-o"></i> اعلان ها <span
+                                class="badge badge-success pull-left">11</span></a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#"> <i class="fa fa-comments-o"></i> پیام ها <span
+                                class="badge badge-warning pull-left r-activity">03</span></a>
+                    </li>
+                </ul>
+
+            </section>
+        </aside>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+        <div class="card">
+            <div class="card-header d-flex">
+                <i class="fa fa-user ml-2 mt-3"></i><strong class="card-title pl-2">کارت مشخصات</strong>
+            </div>
+            <div class="card-body">
+                <div class="mx-auto d-block">
+                    <img class="rounded-circle mx-auto d-block" src="images/admin.jpg" alt="Card image cap">
+                    <h5 class="text-sm-center mt-2 mb-1">محمد محمدی</h5>
+                    <div class="location text-sm-center"><i class="fa fa-map-marker"></i> ایران، تهران</div>
+                </div>
+                <hr>
+                <div class="card-text text-sm-center">
+                    <a href="#"><i class="fa fa-facebook pr-1"></i></a>
+                    <a href="#"><i class="fa fa-twitter pr-1"></i></a>
+                    <a href="#"><i class="fa fa-linkedin pr-1"></i></a>
+                    <a href="#"><i class="fa fa-pinterest pr-1"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6">
+        <section class="card">
+            <div class="twt-feed blue-bg">
+                <div class="corner-ribon black-ribon">
+                    <i class="fa fa-twitter"></i>
+                </div>
+                <div class="fa fa-twitter wtt-mark"></div>
+
+                <div class="media">
+                    <a href="#">
+                        <img class="align-self-center rounded-circle mr-3" style="width:85px; height:85px;" alt=""
+                            src="images/admin.jpg">
+                    </a>
+                    <div class="media-body">
+                        <h2 class="text-white display-6">امیر افشار</h2>
+                        <p class="text-light">مدیر پروژه</p>
+                    </div>
+                </div>
+            </div>
+            <div class="weather-category twt-category">
+                <ul class="w-100">
+                    <li class="active">
+                        <h5>750</h5>
+                        توییت ها
+                    </li>
+                    <li>
+                        <h5>865</h5>
+                        دنبال شوندگان
+                    </li>
+                    <li>
+                        <h5>3645</h5>
+                        دنبال کنندگان
+                    </li>
+                </ul>
+            </div>
+            <div class="twt-write col-sm-12">
+                <textarea placeholder="بعد از نوشتن توییت خود enter بزنید" rows="1"
+                    class="form-control t-text-area"></textarea>
+            </div>
+            <footer class="twt-footer text-right">
+                <a href="#"><i class="fa fa-camera"></i></a>
+                <a href="#"><i class="fa fa-map-marker"></i></a>
+                ایران، تهران
+            </footer>
+        </section>
+    </div>
+
+    </div><!-- .row -->
+    </div><!-- .animated -->
+    </div><!-- .content -->
+
+    </div>
+    <!-- Main -->
+
+    <script src="vendors/jquery/dist/jquery.min.js"></script>
+    <script src="vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!--  Chart js -->
+    <script src="vendors/chart.js/dist/Chart.bundle.min.js"></script>
+    <script src="assets/js/widgets.js"></script>
+
+</body>
+
+</html>

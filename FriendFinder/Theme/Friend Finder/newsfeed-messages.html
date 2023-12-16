@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="This is social network html5 template available in rtl-theme......" />
+		<meta name="keywords" content="Social Network, Social Media, Make Friends, Newsfeed, Profile Page" />
+		<meta name="robots" content="index, follow" />
+		<title>Chatroom | Send and Receive Messages</title>
+
+    <!-- Stylesheets
+    ================================================= -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/jquery.scrollbar.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/ionicons.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link href="css/emoji.css" rel="stylesheet">
+   
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="images/fav.png"/>
+	</head>
+  <body>
+
+    <!-- Header
+    ================================================= -->
+		<header id="header">
+      <nav class="navbar navbar-default navbar-fixed-top menu">
+        <div class="container">
+
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">تغییر پیمایش</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index-register.html"><img src="images/logo.png" alt="logo" /></a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-left main-menu">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">صفحه اصلی <span><img src="images/down-arrow.png" alt="" /></span></a>
+                  <ul class="dropdown-menu newsfeed-home">
+                    <li><a href="index-2.html">صفحه اصلی</a></li>
+                    <li><a href="index-register.html">ثبت نام / ورود</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">فید خبری <span><img src="images/down-arrow.png" alt="" /></span></a>
+                  <ul class="dropdown-menu newsfeed-home">
+                    <li><a href="newsfeed.html">اخبار (فید خبری)</a></li>
+                    <li><a href="newsfeed-people-nearby.html">جستجوی افراد نزدیک</a></li>
+                    <li><a href="newsfeed-friends.html">دوستان من</a></li>
+                    <li><a href="newsfeed-messages.html">چت روم</a></li>
+                    <li><a href="newsfeed-images.html">فید تصویر</a></li>
+                    <li><a href="newsfeed-videos.html">فید ویدیو</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">تایم لاین <span><img src="images/down-arrow.png" alt="" /></span></a>
+                <ul class="dropdown-menu login">
+                  <li><a href="timeline.html">تایم لاین</a></li>
+                  <li><a href="timeline-about.html">درباره</a></li>
+                  <li><a href="timeline-album.html">آلبوم تصاویر</a></li>
+                  <li><a href="timeline-friends.html">تایم لاین دوستان</a></li>
+                  <li><a href="edit-profile-basic.html">ویرایش: اطلاعات اولیه</a></li>
+                  <li><a href="edit-profile-work-edu.html">ویرایش: کار</a></li>
+                  <li><a href="edit-profile-interests.html">ویرایش: علایق</a></li>
+                  <li><a href="edit-profile-settings.html">تنظیمات حساب</a></li>
+                  <li><a href="edit-profile-password.html">ویرایش رمز عبور</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle pages" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">همه صفحات <span><img src="images/down-arrow.png" alt="" /></span></a>
+                <ul class="dropdown-menu page-list">
+                  <li><a href="index-2.html">صفحه اصلی</a></li>
+                  <li><a href="index-register.html">ثبت نام / ورود</a></li>
+                  <li><a href="newsfeed.html">اخبار (فید خبری)</a></li>
+                  <li><a href="newsfeed-people-nearby.html">جستجوی افراد نزدیک</a></li>
+                  <li><a href="newsfeed-friends.html">دوستان من</a></li>
+                  <li><a href="newsfeed-messages.html">چت روم</a></li>
+                  <li><a href="newsfeed-images.html">فید تصویر</a></li>
+                  <li><a href="newsfeed-videos.html">فید ویدیو</a></li>
+                  <li><a href="timeline.html">تایم لاین</a></li>
+                  <li><a href="timeline-about.html">درباره</a></li>
+                  <li><a href="timeline-album.html">آلبوم تصاویر</a></li>
+                  <li><a href="timeline-friends.html">تایم لاین دوستان</a></li>
+                  <li><a href="edit-profile-basic.html">ویرایش پروفایل</a></li>
+                  <li><a href="contact.html">ارتباط با ما</a></li>
+                  <li><a href="faq.html">سوالات متداول</a></li>
+                  <li><a href="404.html">خطای 404</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="contact.html">تماس با ما</a></li>
+            </ul>
+            <form class="navbar-form navbar-left hidden-sm">
+              <div class="form-group">
+                <i class="icon ion-android-search"></i>
+                <input type="text" class="form-control" placeholder="جستجو در دوستان ، عکسها ، ویدئوها">
+              </div>
+            </form>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+      </nav>
+    </header>
+    <!--Header End-->
+
+    <div id="page-contents">
+    	<div class="container">
+    		<div class="row">
+
+    			<!-- Newsfeed Common Side Bar Left
+          ================================================= -->
+    			<div class="col-md-3 static">
+            <div class="profile-card">
+            	<img src="images/users/user-1.jpg" alt="user" class="profile-photo" />
+            	<h5><a href="timeline.html" class="text-white">سارا بهمنی</a></h5>
+            	<a href="#" class="text-white"><i class="ion ion-android-person-add"></i> 1.299 دنبال کننده</a>
+            </div><!--profile card ends-->
+            <ul class="nav-news-feed">
+              <li><i class="icon ion-ios-paper"></i><div><a href="newsfeed.html">اخبار (فید خبری)</a></div></li>
+              <li><i class="icon ion-ios-people"></i><div><a href="newsfeed-people-nearby.html">جستجوی افراد نزدیک</a></div></li>
+              <li><i class="icon ion-ios-people-outline"></i><div><a href="newsfeed-friends.html">دوستان</a></div></li>
+              <li><i class="icon ion-chatboxes"></i><div><a href="newsfeed-messages.html">پیام ها</a></div></li>
+              <li><i class="icon ion-images"></i><div><a href="newsfeed-images.html">فید تصویر</a></div></li>
+              <li><i class="icon ion-ios-videocam"></i><div><a href="newsfeed-videos.html">ویدیو ها</a></div></li>
+            </ul><!--news-feed links ends-->
+            <div id="chat-block">
+              <div class="title">چت آنلاین</div>
+              <ul class="online-users list-inline">
+                <li><a href="newsfeed-messages.html" title="مونا خان بابایی"><img src="images/users/user-2.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="طه رجبی"><img src="images/users/user-3.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="علی شفیعی"><img src="images/users/user-4.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="سینا مهراد"><img src="images/users/user-5.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="رسول رسولی"><img src="images/users/user-6.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="سعید دلیر"><img src="images/users/user-7.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="وحید سعادتمند"><img src="images/users/user-8.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="رقیه بزرگمهر"><img src="images/users/user-9.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+                <li><a href="newsfeed-messages.html" title="پیمان مرادی"><img src="images/users/user-10.jpg" alt="user" class="img-responsive profile-photo" /><span class="online-dot"></span></a></li>
+              </ul>
+            </div><!--chat block ends-->
+          </div>
+    			<div class="col-md-7">
+
+            <!-- Post Create Box
+            ================================================= -->
+            <div class="create-post">
+            	<div class="row">
+            		<div class="col-md-7 col-sm-7">
+                  <div class="form-group">
+                    <img src="images/users/user-1.jpg" alt="" class="profile-photo-md" />
+                    <textarea name="texts" id="exampleTextarea" cols="30" rows="1" class="form-control" placeholder="هرآنچه آرزو میکنید"></textarea>
+                  </div>
+                </div>
+            		<div class="col-md-5 col-sm-5">
+                  <div class="tools">
+                    <ul class="publishing-tools list-inline">
+                      <li><a href="#"><i class="ion-compose"></i></a></li>
+                      <li><a href="#"><i class="ion-images"></i></a></li>
+                      <li><a href="#"><i class="ion-ios-videocam"></i></a></li>
+                      <li><a href="#"><i class="ion-map"></i></a></li>
+                    </ul>
+                    <button class="btn btn-primary pull-left">انتشار</button>
+                  </div>
+                </div>
+            	</div>
+            </div><!-- Post Create Box End -->
+
+            <!-- Chat Room
+            ================================================= -->
+            <div class="chat-room">
+              <div  class="row">
+                <div class="col-md-5">
+
+                  <!-- Contact List in Left-->
+                  <ul class="nav nav-tabs contact-list scrollbar-wrapper scrollbar-outer">
+                    <li class="active">
+                      <a href="#contact-1" data-toggle="tab">
+                        <div class="contact">
+                        	<img src="images/users/user-2.jpg" alt="" class="profile-photo-sm pull-right"/>
+                        	<div class="msg-preview">
+                        		<h6>لیدا کیانی</h6>
+                        		<p class="text-muted">سلام ، چطوری؟</p>
+                            <small class="text-muted">1 دقیقه قبل</small>
+                            <div class="chat-alert">1</div>
+                        	</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#contact-2" data-toggle="tab">
+                        <div class="contact">
+                          <img src="images/users/user-10.jpg" alt="" class="profile-photo-sm pull-right"/>
+                          <div class="msg-preview">
+                            <h6>محمود خبازی</h6>
+                            <p class="text-muted">به زودی می بینمت</p>
+                            <small class="text-muted">1 ساعت قبل</small>
+                            <div class="seen"><i class="icon ion-checkmark-round"></i></div>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#contact-3" data-toggle="tab">
+                        <div class="contact">
+                          <img src="images/users/user-3.jpg" alt="" class="profile-photo-sm pull-right"/>
+                          <div class="msg-preview">
+                            <h6>سوفیا ساجدی</h6>
+                            <p class="text-muted">اره من خوبم</p>
+                            <small class="text-muted">13ساعت قبل</small>
+                            <div class="replied"><i class="icon ion-reply"></i></div>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#contact-4" data-toggle="tab">
+                        <div class="contact">
+                        	<img src="images/users/user-4.jpg" alt="" class="profile-photo-sm pull-right"/>
+                        	<div class="msg-preview">
+                        		<h6>محمد حسین میثاقی</h6>
+                        		<p class="text-muted">سلام کسی هست؟</p>
+                            <small class="text-muted">دیروز</small>
+                            <div class="chat-alert">1</div>
+                        	</div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#contact-5" data-toggle="tab">
+                        <div class="contact">
+                          <img src="images/users/user-9.jpg" alt="" class="profile-photo-sm pull-right"/>
+                          <div class="msg-preview">
+                            <h6>رقیه حقی</h6>
+                            <p class="text-muted">باید بروم</p>
+                            <small class="text-muted">2 روز پیش</small>
+                            <div class="seen"><i class="icon ion-checkmark-round"></i></div>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#contact-6" data-toggle="tab">
+                        <div class="contact">
+                        	<img src="images/users/user-8.jpg" alt="" class="profile-photo-sm pull-right"/>
+                        	<div class="msg-preview">
+                        		<h6>علی صبوری</h6>
+                        		<p class="text-muted">هستی؟</p>
+                            <small class="text-muted">2 روز پیش</small>
+                            <div class="chat-alert">1</div>
+                        	</div>
+                        </div>
+                      </a>
+                    </li>
+                  </ul><!--Contact List in Left End-->
+
+                </div>
+                <div class="col-md-7">
+
+                  <!--Chat Messages in Right-->
+                  <div class="tab-content scrollbar-wrapper wrapper scrollbar-outer">
+                    <div class="tab-pane active" id="contact-1">
+                      <div class="chat-body">
+                      	<ul class="chat-message">
+                      		<li class="left">
+                      			<img src="images/users/user-2.jpg" alt="" class="profile-photo-sm pull-right" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>لیدا کیانی</h5>
+                              	<small class="text-muted">3 روز قبل</small>
+                              </div>
+                              <p>سلام عزیزم حالت چطوره ؟؟؟؟ کم پیدایی. کجا بودی؟</p>
+                            </div>
+                      		</li>
+                          <li class="right">
+                      			<img src="images/users/user-1.jpg" alt="" class="profile-photo-sm pull-left" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>سارا بهمنی</h5>
+                              	<small class="text-muted">3 روز قبل</small>
+                              </div>
+                              <p>رفته بودم تعطیلات</p>
+                            </div>
+                      		</li>
+                          <li class="right">
+                      			<img src="images/users/user-1.jpg" alt="" class="profile-photo-sm pull-left" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>سارا بهمنی</h5>
+                              	<small class="text-muted">3 روز قبل</small>
+                              </div>
+                              <p>زمان بسیار خوبی برای من بود کلی بهمون خوش گذشت <i class="em em-blush"></i></p>
+                            </div>
+                      		</li>
+                          <li class="left">
+                      			<img src="images/users/user-2.jpg" alt="" class="profile-photo-sm pull-right" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>لیدا کیانی</h5>
+                              	<small class="text-muted">3 روز قبل</small>
+                              </div>
+                              <p>چه خوب ای کاش من جای تو بودم <i class="em em-expressionless"></i></p>
+                            </div>
+                      		</li>
+                          <li class="right">
+                      			<img src="images/users/user-1.jpg" alt="" class="profile-photo-sm pull-left" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>سارا بهمنی</h5>
+                              	<small class="text-muted">3 روز قبل</small>
+                              </div>
+                              <p><i class="em em-hand"></i></p>
+                            </div>
+                      		</li>
+                          <li class="left">
+                      			<img src="images/users/user-2.jpg" alt="" class="profile-photo-sm pull-right" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>لیدا کیانی</h5>
+                              	<small class="text-muted">1 دقیقه قبل</small>
+                              </div>
+                              <p>سلام ، چطوری؟</p>
+                            </div>
+                      		</li>
+                      	</ul>
+                      </div>
+                    </div>
+                    <div class="tab-pane" id="contact-2">
+                      <div class="chat-body">
+                      	<ul class="chat-message">
+                      		<li class="left">
+                      			<img src="images/users/user-10.jpg" alt="" class="profile-photo-sm pull-right" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>محمود خبازی</h5>
+                              	<small class="text-muted">1 روز قبل</small>
+                              </div>
+                              <p>سلام</p>
+                            </div>
+                      		</li>
+                          <li class="right">
+                      			<img src="images/users/user-1.jpg" alt="" class="profile-photo-sm pull-left" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>سارا بهمنی</h5>
+                              	<small class="text-muted">1 روز قبل</small>
+                              </div>
+                              <p>سلام</p>
+                            </div>
+                      		</li>
+                          <li class="left">
+                      			<img src="images/users/user-10.jpg" alt="" class="profile-photo-sm pull-right" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>محمود خبازی</h5>
+                              	<small class="text-muted">1 ساعت قبل</small>
+                              </div>
+                              <p>خوبم</p>
+                            </div>
+                      		</li>
+                          <li class="right">
+                      			<img src="images/users/user-1.jpg" alt="" class="profile-photo-sm pull-left" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>سارا بهمنی</h5>
+                              	<small class="text-muted">1 ساعت قبل</small>
+                              </div>
+                              <p>به زودی میبینمت</p>
+                            </div>
+                      		</li>
+                      	</ul>
+                      </div>
+                    </div>
+                    <div class="tab-pane" id="contact-3">
+                      <div class="chat-body">
+                      	<ul class="chat-message">
+                      		<li class="right">
+                      			<img src="images/users/user-1.jpg" alt="" class="profile-photo-sm pull-left" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>سارا</h5>
+                              	<small class="text-muted">2 روز پیش</small>
+                              </div>
+                              <p class="text-justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</p>
+                            </div>
+                      		</li>
+                          <li class="left">
+                      			<img src="images/users/user-3.jpg" alt="" class="profile-photo-sm pull-right" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>سوفیا ساجدی</h5>
+                              	<small class="text-muted">1 روز قبل</small>
+                              </div>
+                              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+                            </div>
+                      		</li>
+                          <li class="right">
+                      			<img src="images/users/user-1.jpg" alt="" class="profile-photo-sm pull-left" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>سارا بهمنی</h5>
+                              	<small class="text-muted">13 ساعت قبل</small>
+                              </div>
+                              <p>خوبم ممنون</p>
+                            </div>
+                      		</li>
+                      	</ul>
+                      </div>
+                    </div>
+                    <div class="tab-pane" id="contact-4">
+                      <div class="chat-body">
+                      	<ul class="chat-message">
+                      		<li class="left">
+                      			<img src="images/users/user-4.jpg" alt="" class="profile-photo-sm pull-right" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>محمد حسین میثاقی</h5>
+                              	<small class="text-muted">1 روز قبل</small>
+                              </div>
+                              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                            </div>
+                      		</li>
+                          <li class="left">
+                      			<img src="images/users/user-4.jpg" alt="" class="profile-photo-sm pull-right" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>محمد حسین میثاقی</h5>
+                              	<small class="text-muted">1 روز قبل</small>
+                              </div>
+                              <p>سلام کسی هست؟</p>
+                            </div>
+                      		</li>
+                      	</ul>
+                      </div>
+                    </div>
+                    <div class="tab-pane" id="contact-5">
+                      <div class="chat-body">
+                      	<ul class="chat-message">
+                      		<li class="left">
+                      			<img src="images/users/user-9.jpg" alt="" class="profile-photo-sm pull-right" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>رقیه حقی</h5>
+                              	<small class="text-muted">2 روز پیش</small>
+                              </div>
+                              <p class="text-justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</p>
+                            </div>
+                      		</li>
+                          <li class="left">
+                      			<img src="images/users/user-9.jpg" alt="" class="profile-photo-sm pull-right" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>رقیه حقی</h5>
+                              	<small class="text-muted">2 روز پیش</small>
+                              </div>
+                              <p class="text-justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</p>
+                            </div>
+                      		</li>
+                          <li class="right">
+                      			<img src="images/users/user-1.jpg" alt="" class="profile-photo-sm pull-left" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>سارا بهمنی</h5>
+                              	<small class="text-muted">2 روز پیش</small>
+                              </div>
+                              <p>من باید بروم</p>
+                            </div>
+                      		</li>
+                      	</ul>
+                      </div>
+                    </div>
+                    <div class="tab-pane" id="contact-6">
+                      <div class="chat-body">
+                      	<ul class="chat-message">
+                      		<li class="left">
+                      			<img src="images/users/user-8.jpg" alt="" class="profile-photo-sm pull-right" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>علی صبوری</h5>
+                              	<small class="text-muted">2 روز پیش</small>
+                              </div>
+                              <p>سلام</p>
+                            </div>
+                      		</li>
+                          <li class="left">
+                      			<img src="images/users/user-8.jpg" alt="" class="profile-photo-sm pull-right" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>علی صبوری</h5>
+                              	<small class="text-muted">2 روز پیش</small>
+                              </div>
+                              <p>سلام</p>
+                            </div>
+                      		</li>
+                          <li class="left">
+                      			<img src="images/users/user-8.jpg" alt="" class="profile-photo-sm pull-right" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>علی صبوری</h5>
+                              	<small class="text-muted">2 روز پیش</small>
+                              </div>
+                              <p>سلام</p>
+                            </div>
+                      		</li>
+                          <li class="left">
+                      			<img src="images/users/user-8.jpg" alt="" class="profile-photo-sm pull-right" />
+                      			<div class="chat-item">
+                              <div class="chat-item-header">
+                              	<h5>علی صبوری</h5>
+                              	<small class="text-muted">2 روز پیش</small>
+                              </div>
+                              <p>سلام</p>
+                            </div>
+                      		</li>
+                      	</ul>
+                      </div>
+                    </div>
+                  </div><!--Chat Messages in Right End-->
+
+                  <div class="send-message">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="پیام خود را بنویسید">
+                      <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">ارسال</button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+
+    			<!-- Newsfeed Common Side Bar Right
+          ================================================= -->
+    			<div class="col-md-2 static">
+            <div class="suggestions" id="sticky-sidebar">
+              <h4 class="grey">دنبال کنید</h4>
+              <div class="follow-user">
+                <img src="images/users/user-11.jpg" alt="" class="profile-photo-sm pull-right" />
+                <div>
+                  <h5><a href="timeline.html">صبا رفیعی</a></h5>
+                  <a href="#" class="text-green">افزودن به دوستان</a>
+                </div>
+              </div>
+              <div class="follow-user">
+                <img src="images/users/user-12.jpg" alt="" class="profile-photo-sm pull-right" />
+                <div>
+                  <h5><a href="timeline.html">پوریا امیری</a></h5>
+                  <a href="#" class="text-green">افزودن به دوستان</a>
+                </div>
+              </div>
+              <div class="follow-user">
+                <img src="images/users/user-13.jpg" alt="" class="profile-photo-sm pull-right" />
+                <div>
+                  <h5><a href="timeline.html">حسین متقی</a></h5>
+                  <a href="#" class="text-green">افزودن به دوستان</a>
+                </div>
+              </div>
+              <div class="follow-user">
+                <img src="images/users/user-14.jpg" alt="" class="profile-photo-sm pull-right" />
+                <div>
+                  <h5><a href="timeline.html">محراب مختاری</a></h5>
+                  <a href="#" class="text-green">افزودن به دوستان</a>
+                </div>
+              </div>
+              <div class="follow-user">
+                <img src="images/users/user-15.jpg" alt="" class="profile-photo-sm pull-right" />
+                <div>
+                  <h5><a href="timeline.html">صبا راد</a></h5>
+                  <a href="#" class="text-green">افزودن به دوستان</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    		</div>
+    	</div>
+    </div>
+
+    <!-- Footer
+    ================================================= -->
+    <footer id="footer">
+      <div class="container">
+      	<div class="row">
+          <div class="footer-wrapper">
+            <div class="col-md-3 col-sm-3">
+              <a href="#"><img src="images/logo-black.png" alt="" class="footer-logo" /></a>
+              <ul class="list-inline social-icons">
+              	<li><a href="#"><i class="icon ion-social-facebook"></i></a></li>
+              	<li><a href="#"><i class="icon ion-social-twitter"></i></a></li>
+              	<li><a href="#"><i class="icon ion-social-googleplus"></i></a></li>
+              	<li><a href="#"><i class="icon ion-social-pinterest"></i></a></li>
+              	<li><a href="#"><i class="icon ion-social-linkedin"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 col-sm-2">
+              <h5>برای افراد</h5>
+              <ul class="footer-links">
+                <li><a href="#">ثبت نام</a></li>
+                <li><a href="#">ورود</a></li>
+                <li><a href="#">اکتشاف</a></li>
+                <li><a href="#">اپلیکیشن فایندر</a></li>
+                <li><a href="#">ویژگی ها</a></li>
+                <li><a href="#">تنظیمات زبان</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 col-sm-2">
+              <h5>برای تجارت</h5>
+              <ul class="footer-links">
+                <li><a href="#">ثبت نام تجاری</a></li>
+                <li><a href="#">ورود تجاری</a></li>
+                <li><a href="#">مزایا</a></li>
+                <li><a href="#">منابع</a></li>
+                <li><a href="#">تبلیغات</a></li>
+                <li><a href="#">راه اندازی</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 col-sm-2">
+              <h5>درباره</h5>
+              <ul class="footer-links">
+                <li><a href="#">درباره ما</a></li>
+                <li><a href="#">ارتباط با ما</a></li>
+                <li><a href="#">قوانین و مقررات</a></li>
+                <li><a href="#">اصطلاحات</a></li>
+                <li><a href="#">کمک</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-3">
+              <h5>ارتباط با ما</h5>
+              <ul class="contact">
+                <li><i class="icon ion-ios-telephone-outline"></i><span dir="ltr">+98 (021) 222 0754</span></li>
+                <li><i class="icon ion-ios-email-outline"></i>info@example-email.com</li>
+                <li><i class="icon ion-ios-location-outline"></i>ایران ، تهران ، خیابان آزادی </li>
+              </ul>
+            </div>
+          </div>
+      	</div>
+      </div>
+      <div class="copyright">
+        <p>نجمه بهرمن � 1400.تمامی حقوق محفوظ است</p>
+      </div>
+		</footer>
+    
+    <!--preloader-->
+    <div id="spinner-wrapper">
+      <div class="spinner"></div>
+    </div>
+    
+    <!--Buy button-->
+    <a href="https://www.rtl-theme.com/author/najma" target="_blank" class="btn btn-buy"><span class="italy">خرید از :</span><img src="images/rtl_logo.png" alt="" /><span class="price">با  40 هزار تومان !</span></a>
+
+    <!-- Scripts
+    ================================================= -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky-kit.min.js"></script>
+    <script src="js/jquery.scrollbar.min.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+
+</html>
